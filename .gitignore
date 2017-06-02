@@ -1,0 +1,34 @@
+src/*.exe
+src/Beachcoin
+src/Beachcoind
+src/test_Beachcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.Beachcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+Beachcoin-qt
+Beachcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+Beachcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

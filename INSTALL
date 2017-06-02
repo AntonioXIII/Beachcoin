@@ -1,0 +1,9 @@
+Building Beachcoin
+
+See doc/readme-qt.rst for instructions on building Beachcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Beachcoin.
+
+See doc/build-*.txt for instructions on building Beachcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Beachcoin.
